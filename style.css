@@ -1,0 +1,451 @@
+@font-face {
+    font-family: font;
+    src: url(https://micro-assets.foodora.com/fonts/fp/PPAgrandir-400-Medium.otf);
+}
+body{
+    font-family: font;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.main .footer{
+    position: fixed;
+    z-index: 1;
+    
+}
+.main .footer .top{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vw 0;
+    background-color: #E21B70;
+}
+.footer .top img{
+    height: 2.6vw;
+    filter: invert(100%) sepia(76%) saturate(221%) hue-rotate(234deg) brightness(114%) contrast(100%);
+}
+.footer .top h1{
+    color: white;
+    font-size: 1vw;
+    font-weight: 500;
+}
+.footer .top button{
+    padding: 0.8vw 0.8vw;
+    border-radius: 0.5vw;
+    border: none;
+    border: 1px solid white;
+    background-color: #E21B70;
+    color: white;
+    font-size: 0.7vw;
+    cursor: pointer;
+    font-weight: bold;
+}
+.footer .top button:hover{
+    background-color: white;
+    color: black;
+}
+.footer .bottom{
+    display: flex;
+    padding: 0.9vw 15vw;
+    gap: 45vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    background-color: white;
+}
+.bottom .left{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    justify-content: center;
+}
+.bottom .left svg:nth-child(1){
+    height: 2vw;
+}
+.bottom .left svg:nth-child(2){
+    height: 1.2vw;
+}
+.bottom .right{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.bottom .right button{
+    padding: 0.4vw 1vw;
+    border-radius: 0.5vw;
+    font-size: 0.7vw;
+    border: none;
+    cursor: pointer;
+    width: 5vw;
+}
+.bottom .right button:nth-child(1){
+    border: 1px solid black;
+    background-color: white;
+}
+.bottom .right button:nth-child(2){
+    background-color: #E21B70;
+    color: white;
+    font-weight: bolder;
+}
+.bottom .right button:hover{
+    transform: scale(1.3); /* Default scale */
+   transition: transform 0.3s ease;
+}
+.bottom .right .icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+ .bottom .right .icon:hover{
+   background-color: rgba(128, 128, 128, 0.192);
+   border-radius: 0.5vw;
+}
+.bottom .right .icon svg{
+    height: 2vw;
+}
+.bottom .right .icon p{
+    font-size: 0.7vw;
+    color: rgb(77, 76, 76);
+}
+.bottom .right svg:hover{
+    filter: grayscale(100%); /* Convert to black and white */
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* section2 */
+.section2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding-top: 8vw;
+    margin-bottom: 2vw;
+}
+.section2 .left{
+    margin: 10vw 10vw;
+}
+.section2 .left h1{
+    font-size: 2vw;
+    color: rgba(43, 43, 43, 0.918);
+    padding-bottom: 2vw;
+   
+}
+.section2 .left .input{
+    box-shadow: rgba(0.35, 0, 0, 0.20) 0px 5px 15px;
+    padding: 0.7vw 0.9vw;
+    border-radius: 0.6vw;
+    display: flex;
+    gap: 1vw;
+}
+.section2 .left .input button{
+    padding: 0.5vw 1.2vw;
+    background-color: #E21B70;
+    color: white;
+    font-size: 0.7vw;
+    border-radius: 0.4vw;
+    border: none;
+    width: 6vw;
+}
+
+.section2 .left .input button:hover{
+    transform: scale(1.3); /* Default scale */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.section2 .left input{
+    padding: 0.8vw 0.8vw;
+    width: 25vw;
+    border: 1px solid rgba(128, 128, 128, 0.473);
+    border-radius: 0.3vw;
+    font-size: 0.8vw;
+    
+}
+.section2 .right{
+    height: 30vw;
+
+    object-fit: cover;
+}
+
+.section2 .right img{
+    height: 100%;
+}
+.section3{
+    height: 100%;
+    width: 100%;
+}
+.section3 .top h1{
+    font-size: 1.5vw;
+    padding: 1.5vw 20vw;
+    
+}
+.section3 .bottom{
+    position: relative;
+}
+.section3 .bottom .image{
+    height: 20vw;  
+}
+.section3 .bottom .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+.section3 .container{
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    background-color: white;
+    padding: 1vw 1vw;
+    border-radius: 1vw;
+    width: 35vw;
+    box-shadow: rgba(0.35, 0, 0, 0.20) 0px 5px 15px;
+    
+}
+.section3 .container h1{
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding-bottom: 1vw;
+    
+}
+.section3 .container p:nth-child(2){
+    color: rgba(39, 38, 38, 0.726);
+    font-size: 1vw;
+}
+.section3 .container p:nth-child(3){
+    padding-top: 1.2vw;
+    font-size: 1vw;
+    font-weight: lighter;
+    color: rgba(39, 38, 38, 0.726);
+}
+.section3 .container p:nth-child(4){
+    padding: 1.2vw 0;
+    font-size: 1vw;
+    font-weight: lighter;
+    color: rgba(39, 38, 38, 0.726);
+}
+.section3 .container button:nth-child(5){
+    padding: 0.6vw 0.6vw;
+    font-size: 0.8vw;
+    font-weight: lighter;
+    color: rgb(39, 38, 38);
+    border-radius: 0.6vw;
+    border: none;
+    background-color: #E21B70;
+    color: white;
+}
+.section3 .container button:hover{
+    transform: scale(1.3); /* Default scale */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.section4{
+    height: 100%;
+    width: 100%;
+}
+.section4 .top h1{
+    margin-top: 15vw;
+    padding: 0 15vw;
+    font-size: 1.8vw;
+    color: rgb(54, 54, 54);
+}
+.section4 .bottom{
+    padding-top: 2vw;
+    display: flex;
+    padding-left: 15vw;
+    gap: 1.5vw;
+}
+.section4 .bottom .container1{
+    position: relative;
+}
+.section4 .bottom .container1 .image{
+    height: 12vw;
+    width: 16vw;
+    overflow: hidden;
+}
+
+.section4 .bottom .container1 .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.6vw;
+    object-fit: cover;
+    transition: transform 0.3s ease;   
+}
+.section4 .bottom .container1 .image img:hover{
+    transform: scale(1.1); /* Default scale */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.section4 .bottom .container1 .btn{
+    position: absolute;
+    left: 4%;
+    bottom: 5%;
+}
+.section4 .bottom .container1 .btn h1{
+    background-color: white;
+    padding: 0.5vw 0.5vw;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    font-weight: lighter;
+}
+.section5{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.section5 .top h1{
+    margin-top: 4vw;
+    padding: 0 15vw;
+    font-size: 1.8vw;
+    color: rgb(54, 54, 54);
+}
+
+.section5 .bottom{
+    background-color: #E21B70;
+    margin: 2vw 0;
+    padding: 3vw 2vw;
+    width: 70vw;
+    border-radius: 1vw;
+    margin-left: 15vw;
+   
+}
+.section5 .bottom .head h1{
+    font-size: 1.3vw;
+    color: white;
+    font-weight: lighter;
+}
+.section5 .bottom .qr{
+    display: flex;
+    margin: 1.5vw 0;
+} 
+.section5 .bottom .qr .image{
+    height: 5vw;
+    border: 1px solid white;
+    padding: 0.3vw 0.3vw;
+}
+
+.section5 .bottom .qr .image img{
+    height: 100%;
+    object-fit: contain;
+}
+.section5 .bottom .qr .text p{
+    font-size: 1vw;
+    color: white;
+    padding-left: 1vw;
+    width: 24vw;
+    font-weight: lighter;
+}
+.section5 .bottom .images{
+    display: flex;
+    cursor: pointer;
+    gap: 0.2vw;
+}
+
+.section5 .bottom .images .img1 svg{ 
+    height:2vw;
+}
+
+
+.section5 .bottom::after{
+    content: '';
+    position: absolute;
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/home-foodpanda-apps.png?width=2528&height=2009.76);
+    background-size: 35vw;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 50%;
+    height: 114%;
+    width: 33vw; 
+}
+/* section6 */
+.section6{
+    height: 100%;
+    width: 100%;
+}
+.section6 .top h1{
+    font-size: 1.6vw;
+    padding: 1.5vw 15vw;
+    
+}
+.section6 .bottom{
+    position: relative;
+}
+.section6 .bottom .image{
+    height: 20vw;  
+}
+.section6 .bottom .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+.section6 .container{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    background-color: white;
+    padding: 1vw 1vw;
+    border-radius: 1vw;
+    width: 35vw;
+    box-shadow: rgba(0.35, 0, 0, 0.20) 0px 5px 15px;
+    
+}
+.section6 .container h1{
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding-bottom: 1vw;
+    
+}
+
+.section6 .container p{
+    padding: 1.2vw 0;
+
+    font-size: 1vw;
+    font-weight: lighter;
+    color: rgba(27, 27, 27, 0.897);
+}
+.section6 .container button{
+    padding: 0.6vw 0.6vw;
+    font-size: 0.8vw;
+    font-weight: lighter;
+    color: rgb(39, 38, 38);
+    border-radius: 0.6vw;
+    border: none;
+    background-color: #E21B70;
+    color: white;
+}
+.section6 .container button:hover{
+    transform: scale(1.3); /* Default scale */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.last{
+    display: flex;
+    gap: 40vw;
+    margin-top: 10vw;
+    height: 100%;
+    padding: 2vw 18vw;
+}
+.last .left{
+    display: flex;
+    gap: 2vw;
+}
+.last .left .third{
+    border-left: 1px solid black;
+    height: 2vw;
+}
+.last .left .third svg{
+    margin-left: 1.5vw;
+}
+.last .right{
+    display: flex;
+    gap: 1vw;
+    cursor: pointer;
+}
+.last .right svg:hover{
+    filter: grayscale(100%); /* Convert to black and white */
+    opacity: 0.7;
+}
